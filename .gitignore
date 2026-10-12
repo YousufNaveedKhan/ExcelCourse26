@@ -1,0 +1,3 @@
+# Excel creates a hidden lock file while a workbook is open
+~$*
+*.tmp
