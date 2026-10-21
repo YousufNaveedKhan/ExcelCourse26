@@ -6,7 +6,10 @@ Created by **Yousuf Naveed Khan**, Senior Instructor at Aptech Gulshan-2, Karach
 
 ## About
 
-This course takes a complete beginner to confident, everyday Excel use. Every lecture has one workbook that is built up step by step in class, so you always have a working file to open, study and practise on.
+This course takes a complete beginner to confident, everyday Excel use. Every lecture has its own folder with:
+
+* the **workbook** built step by step in class, and
+* a **README** with the lecture notes: what was covered, formula syntax, examples and common mistakes.
 
 New lectures are added as the course progresses.
 
@@ -14,8 +17,20 @@ New lectures are added as the course progresses.
 
 | # | Lecture | You learn |
 |---|---|---|
-| 01 | [Basics and formatting](./Lec01-Basics-and-Formatting.xlsx) | the Excel screen, entering data, formatting a marksheet (merged title, borders, colours, column widths) |
-| 02 | [Formulas and functions](./Lec02-Formulas-and-Functions.xlsx) | writing formulas, `SUM`, calculating a percentage, copying a formula down a column |
+| 01 | [Basics and Formatting](./Lectures/Lec01-Basics-and-Formatting/) | the Excel screen, entering data, formatting a marksheet (merged title, borders, colours, column widths) |
+| 02 | [Formulas and Functions](./Lectures/Lec02-Formulas-and-Functions/) | writing formulas, `SUM`, calculating a percentage, copying a formula down a column |
+| 03 | [IF and Nested IF](./Lectures/Lec03-IF-and-Nested-IF/) | comparison operators, `IF` for PASS/FAIL, nested `IF` for grades |
+| 04 | [Sorting, Filtering and Conditional Formatting](./Lectures/Lec04-Sorting-Filtering-and-Conditional-Formatting/) | Excel Tables, Total Row, sorting, filtering, highlight rules and data bars |
+| 05 | [COUNTIF, SUMIF and Data Validation](./Lectures/Lec05-COUNTIF-SUMIF-and-DataValidation/) | counting and adding with a condition, dropdown lists, pictures in cells |
+| 06 | [VLOOKUP](./Lectures/Lec06-VLOOKUP/) | finding a record by its ID, structured references in Tables |
+| 07 | [PivotTable and PivotChart](./Lectures/Lec07-PivotChart-and-PivotTable/) | summarising large data with PivotTables, filters and PivotCharts |
+
+## Assignments
+
+| # | Assignment | Covers |
+|---|---|---|
+| 01 | [IF and Nested IF](./Assignments/Assignment%2301.md) | Lec01 to Lec03 |
+| 02 | [Revision of Lec01 to Lec07](./Assignments/Assignment%2302.md) | Lec01 to Lec07 |
 
 ## What the Course Covers
 
@@ -31,23 +46,22 @@ New lectures are added as the course progresses.
 
 ## Using the Files
 
-Each `.xlsx` file is the practice workbook for its lecture.
-
-1. Download the file: open it on GitHub and choose **Download raw file**, or clone the whole repository:
+1. Open a lecture folder from the table above. Its notes appear below the file list.
+2. Download the workbook: open it on GitHub and choose **Download raw file**, or clone the whole repository:
 
    ```bash
    git clone https://github.com/YousufNaveedKhan/ExcelCourse26.git
    ```
 
-2. Open it in Excel and work on your own copy, so the original stays untouched.
-3. Try the lecture again from scratch on a blank sheet. That is where the learning happens.
+3. Open it in Excel and work on your own copy, so the original stays untouched.
+4. Try the lecture again from scratch on a blank sheet. That is where the learning happens.
 
 ## Requirements
 
 * Microsoft Excel 2019 or later (Microsoft 365 recommended)
 * No previous Excel experience needed
 
-Some later lectures use newer functions such as `XLOOKUP` and dynamic arrays, which need Excel 2021 or Microsoft 365. Those lectures will say so at the top.
+Some lectures use newer features such as pictures in cells, `XLOOKUP` and dynamic arrays, which need Excel 2021 or Microsoft 365. Those lectures say so in their notes.
 
 ## Learning Approach
 
